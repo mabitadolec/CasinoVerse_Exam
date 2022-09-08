@@ -2,7 +2,6 @@ const { expect } = require("chai");
 const { loadFixture } = require("ethereum-waffle");
 const { ethers } = require("hardhat");
 const { inputFile } = require("hardhat/internal/core/params/argumentTypes");
-const { beforeEach } = require("mocha");
 
 describe('Deploying Smart Contracts', () => {
 
